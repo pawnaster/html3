@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Tinos&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    font-size: .87rem;
+    font-weight: 700;
+    color: lightgrey;
+}
+
+.video-background {
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.section1 {
+    height: 5.23vh;
+    background-color: #151413;
+    padding: 8px 0px;
+}
+
+.section2 {
+    height: 72.36vh;
+    position: relative;    
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.section3 {
+    height: 61.6vh;
+    background-image: url("../img/July_Update_Homepage_v4.jpg");
+}
+
+.section4 {
+    background-image: url("../img/smoke-center-SM.jpg");
+    height: 99.33vh;
+}
+
+.section5 {
+    height: 62.41vh;
+    background-image: url("../img/LostArk_HP_WorldAdventure__v2_WIP_Mobile.jpg");
+}
+
+.section6 {
+    height: 95.43vh;
+    background-image: url("../img/1920-background2.jpg");
+}
+
+.section7 {
+    height: 87.17vh;
+    background-image: url("../img/smoke-center-SM.jpg");
+}
+
+.section8 {
+    height: 30.68vh;
+    background-image: url("../img/Long-news2.jpg");
+}
+
+.section9 {
+    height: 26.06vh;
+}
+
+.section1-logo-container {
+    width: 80%;
+}
+
+.play-now {
+    border: solid #bfa251 1px;
+    margin: 0px 8px;
+    font-weight: 700;
+    font-size: .875rem;
+}
+
+.play-now:hover {
+    background-color: #bfa251;
+    color: #000;
+}
+
+.game:hover {
+    color:white;
+    filter: drop-shadow(0 0 6px white);
+}
+
+.buy-starter-pack {
+    border: solid #bfa251 1px;
+    margin: 0px 8px;
+    font-weight: 700;
+    font-size: .875rem;
+}
+
+.buy-starter-pack:hover {
+    background-color: #bfa251;
+    color: #000;
+}
+
+.your-odyssey-begins {
+    background-image: linear-gradient(90deg,transparent,rgba(0,0,0,.35) 10%,rgba(0,0,0,.35) 90%,transparent);
+    font-family: 'Tinos', serif;
+    font-size: 2.125rem;
+    padding: 2vh 0vh;
+    color: whitesmoke;
+}
+
+.your-odyssey-begins:hover {
+    color: white;
+    filter: drop-shadow(0 0 6px white);
+}
+
+.play-watch-container {
+    margin: 1vh 0vh;
+}
+
+.play-free-now {
+    border: solid #bfa251 1px;
+    margin: 0px 8px;
+    background-color: black;
+    opacity: 80%;
+    padding: 1vh 0vh;
+}
+
+.play-free-now:hover {
+    background-color: #bfa251;
+    color: #000;
+}
+
+.watch-trailer {
+    border: solid #bfa251 1px;
+    margin: 0px 8px;
+    padding: 1vh 0vh;
+    color: #bfbfbf;
+    text-shadow: 0 0 6px #000;
+    filter: drop-shadow(0 0 6px #000000);
+    transition: color .35s ease-in-out;
+}
+
+.watch-trailer:hover {
+    color: white;
+    filter: drop-shadow(0 0 6px white);
+}
+
+.section3-container {
+    background-color: rgba(0,0,0,.75);
+    padding: 5vh 1vh;
+}
+
+.july-update {
+    height: 15.57vh;
+}
+
+.a-spellbinding {
+    font-size: 1rem;
+    padding: 2vh 0vh;
+}
+
+.columns {
+    height: 54.9vh;
+}
+
+.news {
+    font-size: 4.0625rem;
+    font-family: 'Tinos', serif;
+}
+
+.h1 {
+    font-size: 1.25rem;
+    padding: 2vh 2vh 0 2vh;
+}
+
+.p {
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 2vh;
+}
+
+.column {
+    /* padding: 3vh; */
+    background-color: black;
+    opacity: 80%;
+    margin: 2vh;
+    position: relative;
+}
+
+.padding-text {
+    padding: 2vh;
+}
+
+.readmore {
+    position:absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 2vh;
+}
+
+.readmore:hover {
+    color: white;
+    filter: drop-shadow(0 0 6px white);
+}
+
+.logo:hover {
+    filter: drop-shadow(0 0 6px white);
+}
